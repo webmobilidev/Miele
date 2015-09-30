@@ -20,12 +20,10 @@ Con la gallery guarda il prodotto da te selezionato nei minimi dettagli.
 	<gap:plugin name="org.apache.cordova.core.vibration" />
 	<gap:plugin name="org.apache.cordova.core.dialogs" />
 	<gap:plugin name="com.adobe.plugins.gaplugin" />
-	<gap:plugin name="com.jp.whitelistplugin" version="1.1.2" />
+	<gap:plugin name="cordova-plugin-whitelist" version="1.0.0" source="npm"/>
 	
-	<allow-navigation href="http://*.wm4pr.com/*" />
-	<allow-intent href="http://*.wm4pr.com/*" />
-	<access origin="http://mobile.wm4pr.com/*" subdomains="true"/>
-	<access origin="http://*.wm4pr.com/*" subdomains="true"/>
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
 	<access origin="*"/>
 
 	
