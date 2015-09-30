@@ -89,5 +89,5 @@ Con la gallery guarda il prodotto da te selezionato nei minimi dettagli.
 	<gap:splash gap:platform="ios" width="2008" height="1536" src="res/screen/ios/screen-ipad-landscape-2x.png"  />	
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*"/>
-	<allow-intent href="http:http://mobile.wm4pr.com/*" />
+	<allow-navigation href="http:http://mobile.wm4pr.com/*" />
 </widget>
