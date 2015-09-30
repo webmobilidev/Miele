@@ -20,7 +20,7 @@ Con la gallery guarda il prodotto da te selezionato nei minimi dettagli.
 	<gap:plugin name="org.apache.cordova.core.vibration" />
 	<gap:plugin name="org.apache.cordova.core.dialogs" />
 	<gap:plugin name="com.adobe.plugins.gaplugin" />
-	<gap:plugin name="org.apache.cordova.whitelist" />
+	<plugin name="cordova-plugin-whitelist" version="1" />
 	
 	
 	<feature name="PushPlugin">
