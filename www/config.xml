@@ -22,8 +22,8 @@ Con la gallery guarda il prodotto da te selezionato nei minimi dettagli.
 	<gap:plugin name="com.adobe.plugins.gaplugin" />
 	<gap:plugin name="com.jp.whitelistplugin" version="1.1.2" />
 	
-	<allow-navigation href="http://mobile.wm4pr.com/*" />
-	<allow-intent href="http://mobile.wm4pr.com/*" />
+	<allow-navigation href="http://*.wm4pr.com/*" />
+	<allow-intent href="http://*.wm4pr.com/*" />
 
 	
 	<feature name="PushPlugin">
